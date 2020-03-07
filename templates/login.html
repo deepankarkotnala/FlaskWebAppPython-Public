@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  {% if title %}
+	 <title>Deepankar | WebApp - {{ title }}</title>
+  {% else %}
+	 <title>Deepankar | WebApp</title>
+  {% endif %}
+  
+<link rel='stylesheet' href='https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:500,700&amp;display=swap'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style_login.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<!-- This is for bootstrap alert closing -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // show the alert
+    setTimeout(function() {
+        $(".alert").alert('close');
+    }, 5000);
+});
+</script>
+<!-- Bootstrap alert closing -->
+
+</head>
+<body>
+ <h1 style="position: relative; text-align: center; font-size: 2.5em">The Analytics Company</h1>
+<form class="login-form segment" action="/login" method="POST"> 
+<div>
+  <h1>Login</h1>
+  <div class="form-control">
+    <input
+      type="text"
+      name="username"
+      id="username"
+      placeholder="&#xF007;  Username"
+	  style="font-family:Arial, FontAwesome"
+      autocomplete="off"
+      required
+    /> 
+    <label for="username"></label>
+  </div>
+  <div class="form-control">
+    <input
+      type="password"
+      name="password"
+      id="password"
+      placeholder="&#xF13E;  Password"
+	  style="font-family:Arial, FontAwesome"
+      autocomplete="off"
+      required
+    />
+    <label for="password"></label>
+  </div>
+  <button style="outline:none"  class="red" type="submit"><i class="icon ion-md-lock"></i>Login</button>
+</form>
+
+
+ <p align="center">Don't have an account?</p> 
+ <a style="text-decoration: none;" href="/signup">
+ <button style="outline:none" class="notred" type="button" ><i class="icon ion-md-lock"></i> Sign up </button>
+</a>
+
+<!-- This code can be used to get 'error' variable's value from main.py file 
+and display a custome message
+{% if error %}
+	<br>
+		<p class="errortext"><strong> {{ error }}</strong>
+		</p>
+		<p> Please check username and/or password and try again.</p>					   
+  {% endif %}
+-->
+
+<!-- This is used to flash a message received from python file 
+We have used 'error; variable to check if the username/ password is incorrect.
+When username & password are correct, this block will not get executed 
+because error variable is not set.
+So there will not be any Logged in flash message after clicking 'logout' 
+button on the website and getting redirected to the login page.
+-->
+
+{% if error %}
+  {% with messages = get_flashed_messages(with_categories=true) %}
+	{% if messages %}
+	  {% for category, message in messages %}
+		<br>
+		<div class="b1 alert  fade in">
+		<strong>{{message}}</strong> </div>
+		 <p class='alert fade in errortext'> 
+			Please check username and/or password and try again.
+		 </p>
+
+	  {% endfor %}
+	{% endif %}
+  {% endwith %}
+{% endif %}
+
+ {% block content %}{% endblock %}
+</body>
+</html>

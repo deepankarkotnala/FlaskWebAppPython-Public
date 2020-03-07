@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  {% if title %}
+	 <title>Deepankar | WebApp - {{ title }}</title>
+  {% else %}
+	 <title>Deepankar | WebApp</title>
+  {% endif %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style_about.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style_index.css') }}">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+{% extends "template.html" %}
+{% block content %}
+		 
+<div class="container">
+  <div class="at-section">
+    <h1 style="font-weight: 700; font-size: 60px; font-family:Arial, FontAwesome; padding: 10px;  text-align: center; color: #949494">The Team</h1>
+  </div>
+  <div class="at-grid" data-column="3">
+    <div class="at-column">
+      <div class="at-user">
+        <div class="at-user__avatar"><img src="https://avatars0.githubusercontent.com/u/11138613?s=460&amp;v=4"/></div>
+        <div class="at-user__name">Deepankar Kotnala</div>
+        <div class="at-user__title">Founder &amp; CEO</div>
+        <ul class="at-social">
+          <li class="at-social__item"><a href="https://linkedin.com/in/deepankarkotnala" target="_blank">
+             <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>			 
+	  </ul>
+	  </div>
+    </div>
+	
+	<div class="at-column">
+      <div class="at-user">
+        <div class="at-user__avatar"><img src="https://media-exp1.licdn.com/dms/image/C5103AQF67XXeFmf1eA/profile-displayphoto-shrink_800_800/0?e=1588809600&v=beta&t=rh72VHT6zDh4_eC7eJy5mUjkA7fIjKvomSLBIaHzD7U"/></div>
+        <div class="at-user__name">Rohit Saini</div>
+        <div class="at-user__title">Co-Founder | Chief Data Scientist</div>
+        <ul class="at-social">
+          <li class="at-social__item"><a href="https://www.linkedin.com/in/akshay-arora-0822/" target="_blank">
+             <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>			 
+	  </ul>
+	  </div>
+    </div>
+	
+	<div class="at-column">
+      <div class="at-user">
+        <div class="at-user__avatar"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQGMeIorHbFpuw/profile-displayphoto-shrink_800_800/0?e=1588809600&v=beta&t=TufOsg_EJU_o38xlMeltX4-BSBGXkeY6YTm3dAiaNO8"/></div>
+        <div class="at-user__name">Akshay Arora</div>
+        <div class="at-user__title">Co-Founder | Head of Operations </div>
+        <ul class="at-social">
+          <li class="at-social__item"><a href="https://www.linkedin.com/in/saini-rohit/" target="_blank">
+             <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>			 
+	  </ul>
+	  </div>
+    </div>
+	
+  </div>
+  <br><br><br><br>
+ <div class="container">
+  <div class="container1">
+		<a  href="tel:+918454983402" style="text-decoration:none;" rel="tooltip" title="Call on Phone"><i class="fa fa-phone fa-2x" aria-hidden="false"></i></a>
+		<a href="mailto:dkotnala5@gmail.com" style="text-decoration:none;" rel="tooltip" title="Email" value="dkotnala5@gmail.com"  onclick="myFunction()"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+		<a href="https://wa.me/918454983402"  style="text-decoration:none;" target="_blank"  rel="tooltip" title="Chat on Whatsapp"><i class="fa fa-whatsapp fa-2x " aria-hidden="true"></i></a>
+		<a href="https://www.instagram.com/theurban_bug" style="text-decoration:none;" rel="tooltip"  target="_blank" title="Instagram"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a>
+  </div>
+ </div>
+ 
+{% endblock %}
+</body>
+</html>

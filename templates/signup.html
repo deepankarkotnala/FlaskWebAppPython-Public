@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  {% if title %}
+     <title>Deepankar's Blog - {{ title }}</title>
+  {% else %}
+	 <title>Deepankar | WebApp</title>
+  {% endif %}
+<link rel='stylesheet' href='https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:500,700&amp;display=swap'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style_login.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+ <h1 style="position: relative; text-align: center; font-size: 2.5em">The Analytics Company</h1>
+
+<form class="login-form segment" action="/signup"> 
+  
+<div>
+  <h1>Sign up</h1>
+  <div class="form-control">
+    <input
+      type="text"
+      name="username"
+      id="username"
+      placeholder="&#xF007;  Username"
+	  style="font-family:Arial, FontAwesome"
+      autocomplete="off"
+      required
+    /> 
+    <label for="username"></label>
+    </div>
+
+    <div class="form-control">
+      <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="&#xF0E0;  Email Address"
+	  style="font-family:Arial, FontAwesome"
+      autocomplete="off"
+      required
+    /> 
+    <label for="email"></label>
+  </div>
+  <div class="form-control">
+    <input
+      type="password"
+      name="password"
+      id="password"
+      placeholder="&#xF13E;  Password"
+	  style="font-family:Arial, FontAwesome"
+      autocomplete="off"
+      required
+    />
+    <label for="password"></label>
+  </div>
+    <div class="form-control">
+    <input
+      type="password"
+      name="confirmpassword"
+      id="confirmpassword"
+      placeholder="&#xF13E;  Confirm Password"
+	  style="font-family:Arial, FontAwesome"
+      autocomplete="off"
+      required
+    />
+    <label for="confirmpassword"></label>
+  </div>
+  <button class="red" type="submit" href="{{ url_for('home') }}"><i class="fa fa-user-plus"></i>&nbsp;Create Account</button>
+</form>
+
+ <p align="center">Already Registered?</p> 
+ <a style="text-decoration: none;"  href="/">
+ <button class="notred" type="button" ><i class="icon ion-md-lock"></i>Login </button>
+</a>
+
+{% block content %}
+{% endblock %}
+<!-- partial -->
+
+</body>
+</html>

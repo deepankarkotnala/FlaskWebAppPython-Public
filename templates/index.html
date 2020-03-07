@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  {% if title %}
+	 <title>Deepankar | WebApp - {{ title }}</title>
+  {% else %}
+	 <title>Deepankar | WebApp</title>
+  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik&amp;display=swap'>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style_blog.css') }}">
+</head>
+<body>
+
+{% extends "template.html" %}
+{% block content %}
+	  
+<!-- partial:index.partial.html -->
+<div class="blog-card">
+    <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Deepankar Kotnala</a></li>
+        <li class="date">March 4, 2020</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Data Science</a></li>
+            <li><a href="#">AI</a></li>
+            <li><a href="#">ML</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>Learning to Code</h1>
+      <h2>Opening a door to the future</h2>
+      <p> In this article, we are going to talk about the evolution of programming languages and how the industry has transformed in the past decade. According to the industry experts, data science is ...</p>
+      <p class="read-more">
+        <a href="#">Read More</a>
+      </p>
+    </div>
+  </div>
+  <div class="blog-card alt">
+    <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Shubhankar Kotnala</a></li>
+        <li class="date">March 02, 2020</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Angular</a></li>
+            <li><a href="#">Node</a></li>
+            <li><a href="#">React</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>Mastering the Language</h1>
+      <h2>Java is not the same as JavaScript</h2>
+      <p>Many people, specially the newbies confuse Java with JavaScript. Hold on folks, they're not the same. Infact, they both have a very different approach and serve an entirely different purpose. In this series, we will help you master ...</p>
+      <p class="read-more">
+        <a href="#">Read More</a>
+      </p>
+    </div>
+  </div>
+ 
+<!-- partial -->
+{% endblock %}
+</body>
+</html>
