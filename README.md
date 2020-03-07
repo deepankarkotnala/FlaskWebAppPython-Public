@@ -11,16 +11,16 @@ https://webapp-dk.herokuapp.com
 
 ### First page that loads up is the Login page.
 
-![login](https://github.com/deepankarkotnala/FlaskWebAppPython/blob/master/Images/login.JPG)
+![login](https://github.com/deepankarkotnala/FlaskWebAppPython-Public/blob/master/Images/login.JPG)
 
 ### First time users can Signup using the Signup page.
 
-![signup](https://github.com/deepankarkotnala/FlaskWebAppPython/blob/master/Images/signup.JPG)
+![signup](https://github.com/deepankarkotnala/FlaskWebAppPython-Public/blob/master/Images/signup.JPG)
 
 ### After Successful Login, user will get redirected to the app home page.
 
-![home](https://github.com/deepankarkotnala/FlaskWebAppPython/blob/master/Images/home.JPG)
+![home](https://github.com/deepankarkotnala/FlaskWebAppPython-Public/blob/master/Images/home.JPG)
 
 ### From the home page, Users can visit the About Us page to know more.
-![aboutus](https://github.com/deepankarkotnala/FlaskWebAppPython/blob/master/Images/about.JPG)
+![aboutus](https://github.com/deepankarkotnala/FlaskWebAppPython-Public/blob/master/Images/about.JPG)
 
