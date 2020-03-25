@@ -7,22 +7,35 @@ Please get in touch to get the *APP LINK*
 
 # App Version 2.0
 
-![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/signin.png)
 
+## Signup
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/signup.png)
 
+## Login
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/signin.png)
+
+## Home 
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/home.png)
 
+## Housing Price Prediction using Machine Learning Model
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/house.png)
 
+## COVID-19 Status in India
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/covid.png)
 
+## A chatbot to check symptoms for COVID-19 by Apollo Hospitals
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/apollo.png)
 
+## My Portfolio - Embedded into this web application
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/portfolio.png)
 
+## My Medium Blog embedded into this web application
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/blog.png)
 
+## Links dropdown
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/links.png)
+
+## About Page
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/about.png)
 
 
