@@ -2,12 +2,34 @@
 
 ### This app is deployed on Heroku. 
 Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
-https://webapp-dk.herokuapp.com
 
+Please get in touch to get the *APP LINK*
 
-### Signup functionality is in works. Will be up soon!
+# App Version 2.0
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/signin.png)
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/signup.png)
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/home.png)
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/house.png)
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/covid.png)
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/apollo.png)
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/portfolio.png)
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/blog.png)
+
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/about.png)
+
 
 -------------------------
+
+# App Version 1.0
+
 
 ### First page that loads up is the Login page.
 
