@@ -20,8 +20,11 @@ Please get in touch to get the *APP LINK*
 ## Housing Price Prediction using Machine Learning Model
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/house.png)
 
-## COVID-19 Status in India
+## COVID-19 Status
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/covid.png)
+
+## COVID-19 Status - Version 2.0
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/covid_updated.png)
 
 ## A chatbot to check symptoms for COVID-19 by Apollo Hospitals
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/apollo.png)
