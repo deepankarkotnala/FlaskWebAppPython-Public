@@ -24,7 +24,7 @@ Please get in touch to get the *APP LINK*
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/covid.png)
 
 ## COVID-19 Status - Version 2.0
-![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/covid_updated.png)
+![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/covid_v2.png)
 
 ## A chatbot to check symptoms for COVID-19 by Apollo Hospitals
 ![login](https://raw.githubusercontent.com/deepankarkotnala/FlaskWebAppPython-Public/master/Images/apollo.png)
